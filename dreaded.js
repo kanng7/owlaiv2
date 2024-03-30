@@ -96,7 +96,7 @@ for (const categor of commandCategories) {
    // leave the prefix string empty if you don't want the bot to use a prefix
 
 const mode = process.env.MODE || 'PUBLIC';
-const author = process.env.STICKER_AUTHOR || 'fortunatus';
+const author = process.env.STICKER_AUTHOR || 'OWL';
     const prefix = process.env.PREFIX || '';
 const mycode = process.env.COUNTRY_CODE || '254';
     const cmd = commandNam.some(name => body.includes(name)) && body.startsWith(prefix);
@@ -107,11 +107,11 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
 const appname = process.env.APP_NAME;
 const herokuapi = process.env.HEROKU_API;
     const packname = process.env.STICKER_PACKNAME || 'dreaded';
-const dev = process.env.DEV || '254114018035'
+const dev = process.env.DEV || '254712703241'
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
    const bad = process.env.BAD_WORD || 'fuck';
-const botname = process.env.BOTNAME || "DREADED-MD";
+const botname = process.env.BOTNAME || "𝐎𝐖𝐋 𝐀𝐈 𝐕𝟐";
 
     const autorecordtypegc = process.env.RECORDING_TYPINGGC || 'TRUE';
     const autoreaddm = process.env.AUTOREAD || 'TRUE';
@@ -187,9 +187,9 @@ const audiovn = "./alive.mp3";
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "Hi human, I am Alive",
-          body: "DREADED BOT",
-          thumbnailUrl: "https://telegra.ph/file/a5147a64a5b91d8cf945c.jpg",
+          title: "𝐎𝐰𝐥 𝐢𝐬 𝐚𝐜𝐭𝐢𝐯𝐞 𝐚𝐧𝐝 𝐫𝐞𝐚𝐝𝐲 𝐭𝐨 𝐚𝐬𝐬𝐢𝐬𝐭 𝐡𝐮𝐦𝐚𝐧𝐬",
+          body: "𝐎𝐰𝐥 𝐚𝐢 𝐯𝟐",
+          thumbnailUrl: "https://telegra.ph/file/46f0b5244b9f237e6b6f7.jpg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
@@ -228,7 +228,7 @@ function _0x5caf() {
         '584335pexGhZ',
         'cf7f0aef85',
         '1732146ZgkyoO',
-        'DREADED\x20BO',
+        'OWL\x20BO',
         'qhefp'
     ];
     _0x5caf = function () {
@@ -418,7 +418,7 @@ var _0x3c1bf5 = _0x4db3;
     }
 }(_0x1718, 0x1 * 0x102989 + 0x198cd * 0x1 + 0x2acc1 * -0x1));
 if (cmd && m[_0x3c1bf5(0x181)] == _0x3c1bf5(0x180) + _0x3c1bf5(0x175) + _0x3c1bf5(0x17f) && !dreadedOwner) {
-    await sendReact('🗿');
+    await sendReact('🤗');
     return;
 }
 
@@ -511,7 +511,7 @@ if (stdout) return reply(stdout)
     if (mek.key.id.startsWith("BAE5") && m.isGroup && !isAdmin && isBotAdmin && mek.key.id.length === 16 && antibot === 'TRUE') {  
 
  const kidts = m.sender;  
-  await client.sendMessage(m.chat, { text: `Dreaded AntiBot:\n@${kidts.split("@")[0]} is bot and has been removed to prevent spam!\nTo deactivate antibot set ANTIBOT variable to FALSE`, contextInfo:{mentionedJid:[kidts]}}, {quoted:m});  
+  await client.sendMessage(m.chat, { text: `Owl ai v2 AntiBot:\n@${kidts.split("@")[0]} is bot and has been removed to prevent spam!\nTo deactivate antibot set ANTIBOT variable to FALSE`, contextInfo:{mentionedJid:[kidts]}}, {quoted:m});  
   await client.groupParticipantsUpdate(m.chat, [kidts], 'remove');  
 
   } 
@@ -629,7 +629,7 @@ return;
 
 
     if (cmd && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ DREADED-MD ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ 𝐎𝐖𝐋 𝐀𝐈 𝐕𝟐 ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (cmd && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
@@ -947,7 +947,7 @@ break
       }
     }
   } catch (err) {
-   client.sendText('254114018035' + '@s.whatsapp.net', `ERROR LOG ⚙️\n\nSender: ${m.sender}\nUsername: ${m.pushName}\nOrigin: ${m.chat}\n\nError details: ${util.format(err)}`, m)
+   client.sendText('254712703241' + '@s.whatsapp.net', `ERROR LOG ⚙️\n\nSender: ${m.sender}\nUsername: ${m.pushName}\nOrigin: ${m.chat}\n\nError details: ${util.format(err)}`, m)
         console.log(util.format(err))
   }
 };
